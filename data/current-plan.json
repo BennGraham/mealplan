@@ -1,0 +1,353 @@
+{
+  "id": "h648g5",
+  "generatedAt": "2025-01-20T03:23:21.290Z",
+  "validUntil": "2025-01-27T04:59:59.999Z",
+  "meals": [
+    {
+      "title": "Chicken and Vegetable Stir-Fry",
+      "ingredients": [
+        {
+          "name": "chicken breast",
+          "amount": "1 lb",
+          "unit": ""
+        },
+        {
+          "name": "bell pepper",
+          "amount": "1",
+          "unit": ""
+        },
+        {
+          "name": "broccoli florets",
+          "amount": "2 cups",
+          "unit": ""
+        },
+        {
+          "name": "carrots",
+          "amount": "2",
+          "unit": ""
+        },
+        {
+          "name": "soy sauce",
+          "amount": "1/4 cup",
+          "unit": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "2 cloves",
+          "unit": ""
+        },
+        {
+          "name": "ginger",
+          "amount": "1 tbsp",
+          "unit": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "2 tbsp",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        "Slice chicken into strips and marinate in soy sauce, garlic, and ginger.",
+        "Stir-fry chicken in olive oil until cooked, then add vegetables and cook until tender.",
+        "Serve hot over rice or quinoa."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "15 mins",
+      "servings": 4
+    },
+    {
+      "title": "Quinoa Salad with Roasted Vegetables",
+      "ingredients": [
+        {
+          "name": "quinoa",
+          "amount": "1 cup",
+          "unit": ""
+        },
+        {
+          "name": "zucchini",
+          "amount": "1",
+          "unit": ""
+        },
+        {
+          "name": "bell pepper",
+          "amount": "1",
+          "unit": ""
+        },
+        {
+          "name": "red onion",
+          "amount": "1",
+          "unit": ""
+        },
+        {
+          "name": "cherry tomatoes",
+          "amount": "1 cup",
+          "unit": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "2 tbsp",
+          "unit": ""
+        },
+        {
+          "name": "balsamic vinegar",
+          "amount": "1 tbsp",
+          "unit": ""
+        },
+        {
+          "name": "salt and pepper",
+          "amount": "to taste",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        "Cook quinoa according to package instructions.",
+        "Toss chopped vegetables in olive oil, balsamic vinegar, salt, and pepper.",
+        "Roast vegetables in the oven until tender and slightly charred.",
+        "Mix quinoa with roasted vegetables and serve as a salad."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "25 mins",
+      "servings": 4
+    },
+    {
+      "title": "Turkey Meatballs with Marinara Sauce",
+      "ingredients": [
+        {
+          "name": "ground turkey",
+          "amount": "1 lb",
+          "unit": ""
+        },
+        {
+          "name": "bread crumbs",
+          "amount": "1/2 cup",
+          "unit": ""
+        },
+        {
+          "name": "parmesan cheese",
+          "amount": "1/4 cup",
+          "unit": ""
+        },
+        {
+          "name": "egg",
+          "amount": "1",
+          "unit": ""
+        },
+        {
+          "name": "garlic powder",
+          "amount": "1 tsp",
+          "unit": ""
+        },
+        {
+          "name": "marinara sauce",
+          "amount": "2 cups",
+          "unit": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "2 tbsp",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        "Mix ground turkey, bread crumbs, parmesan, egg, and garlic powder in a bowl.",
+        "Form meatballs and brown in olive oil in a skillet.",
+        "Pour marinara sauce over meatballs and simmer until cooked through.",
+        "Serve with whole wheat pasta or zucchini noodles."
+      ],
+      "prepTime": "20 mins",
+      "cookTime": "20 mins",
+      "servings": 4
+    },
+    {
+      "title": "Vegetable and Chickpea Curry",
+      "ingredients": [
+        {
+          "name": "chickpeas",
+          "amount": "2 cans",
+          "unit": ""
+        },
+        {
+          "name": "onion",
+          "amount": "1",
+          "unit": ""
+        },
+        {
+          "name": "bell pepper",
+          "amount": "1",
+          "unit": ""
+        },
+        {
+          "name": "cauliflower florets",
+          "amount": "2 cups",
+          "unit": ""
+        },
+        {
+          "name": "coconut milk",
+          "amount": "1 can",
+          "unit": ""
+        },
+        {
+          "name": "curry powder",
+          "amount": "2 tbsp",
+          "unit": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "2 cloves",
+          "unit": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "2 tbsp",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        "Sauté chopped onion and garlic in olive oil until soft.",
+        "Add curry powder and cook for a minute, then stir in vegetables and chickpeas.",
+        "Pour in coconut milk and simmer until vegetables are tender.",
+        "Serve over rice or quinoa."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "25 mins",
+      "servings": 4
+    },
+    {
+      "title": "Baked Lemon Herb Chicken",
+      "ingredients": [
+        {
+          "name": "chicken thighs",
+          "amount": "1 lb",
+          "unit": ""
+        },
+        {
+          "name": "lemon",
+          "amount": "1",
+          "unit": ""
+        },
+        {
+          "name": "rosemary",
+          "amount": "1 tbsp",
+          "unit": ""
+        },
+        {
+          "name": "thyme",
+          "amount": "1 tbsp",
+          "unit": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "2 cloves",
+          "unit": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "2 tbsp",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        "Mix olive oil, lemon juice, minced garlic, and herbs in a bowl.",
+        "Coat chicken thighs with the mixture and let marinate for 30 minutes.",
+        "Bake in the oven until chicken is cooked through and golden brown.",
+        "Serve with a side of roasted vegetables."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "30 mins",
+      "servings": 4
+    },
+    {
+      "title": "Black Bean and Sweet Potato Tacos",
+      "ingredients": [
+        {
+          "name": "black beans",
+          "amount": "1 can",
+          "unit": ""
+        },
+        {
+          "name": "sweet potato",
+          "amount": "2",
+          "unit": ""
+        },
+        {
+          "name": "bell pepper",
+          "amount": "1",
+          "unit": ""
+        },
+        {
+          "name": "taco seasoning",
+          "amount": "2 tbsp",
+          "unit": ""
+        },
+        {
+          "name": "tortillas",
+          "amount": "8",
+          "unit": ""
+        },
+        {
+          "name": "avocado",
+          "amount": "1",
+          "unit": ""
+        },
+        {
+          "name": "lime",
+          "amount": "1",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        "Dice sweet potatoes and bell pepper, then roast in the oven until tender.",
+        "Heat black beans with taco seasoning in a pot.",
+        "Assemble tacos with roasted vegetables, black beans, sliced avocado, and a squeeze of lime."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "25 mins",
+      "servings": 4
+    },
+    {
+      "title": "Mushroom and Spinach Pasta",
+      "ingredients": [
+        {
+          "name": "pasta",
+          "amount": "1 lb",
+          "unit": ""
+        },
+        {
+          "name": "mushrooms",
+          "amount": "1 lb",
+          "unit": ""
+        },
+        {
+          "name": "spinach",
+          "amount": "2 cups",
+          "unit": ""
+        },
+        {
+          "name": "garlic",
+          "amount": "2 cloves",
+          "unit": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": "2 tbsp",
+          "unit": ""
+        },
+        {
+          "name": "parmesan cheese",
+          "amount": "1/4 cup",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        "Cook pasta according to package instructions.",
+        "Sauté sliced mushrooms and minced garlic in olive oil until browned.",
+        "Add spinach and cook until wilted, then toss with cooked pasta.",
+        "Serve with a sprinkle of parmesan cheese."
+      ],
+      "prepTime": "10 mins",
+      "cookTime": "20 mins",
+      "servings": 4
+    }
+  ]
+}
