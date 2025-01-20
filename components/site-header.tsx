@@ -1,10 +1,16 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { usePathname } from "next/navigation"
-import { Menu } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetHeader, SheetTitle, SheetTrigger } from "@/components/ui/sheet"
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { Menu } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 const routes = [
   {
@@ -19,10 +25,10 @@ const routes = [
     href: "/todo",
     label: "Todo List",
   },
-]
+];
 
 export function SiteHeader() {
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -54,10 +60,9 @@ export function SiteHeader() {
           </SheetContent>
         </Sheet>
         <div className="flex-1">
-          <h1 className="text-lg font-semibold">Multi-Tool App</h1>
+          <h1 className="text-lg font-semibold">10 second tidy collection</h1>
         </div>
       </div>
     </header>
-  )
+  );
 }
-

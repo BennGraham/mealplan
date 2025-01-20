@@ -1,9 +1,15 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Clock, Users } from "lucide-react"
-import type { Recipe } from "@/types/meals"
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Clock, Users } from "lucide-react";
+import type { Recipe } from "@/types/meals";
 
 interface RecipeCardProps {
-  recipe: Recipe
+  recipe: Recipe;
 }
 
 export function RecipeCard({ recipe }: RecipeCardProps) {
@@ -36,15 +42,14 @@ export function RecipeCard({ recipe }: RecipeCardProps) {
           </div>
           <div>
             <h3 className="font-medium mb-2">Instructions</h3>
-            <ol className="list-decimal pl-5 space-y-1">
+            <ul className="list-disc pl-5 space-y-1">
               {recipe.instructions.map((step, index) => (
                 <li key={index}>{step}</li>
               ))}
-            </ol>
+            </ul>
           </div>
         </div>
       </CardContent>
     </Card>
-  )
+  );
 }
-
