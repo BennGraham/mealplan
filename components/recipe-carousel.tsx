@@ -1,33 +1,41 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import { ChevronLeft, ChevronRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { RecipeCard } from "./recipe-card"
-import type { Recipe } from "@/types/meals"
+import { useState, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { RecipeCard } from "./recipe-card";
+import type { Recipe } from "@/types/meals";
 
 interface RecipeCarouselProps {
-  recipes: Recipe[]
+  recipes: Recipe[];
 }
 
 export function RecipeCarousel({ recipes }: RecipeCarouselProps) {
-  const [currentIndex, setCurrentIndex] = useState(0)
+  const [currentIndex, setCurrentIndex] = useState(0);
 
   // Set initial index to current day of week (0 = Sunday)
   useEffect(() => {
-    const today = new Date().getDay()
-    setCurrentIndex(today)
-  }, [])
+    const today = new Date().getDay();
+    setCurrentIndex(today);
+  }, []);
 
   const nextRecipe = () => {
-    setCurrentIndex((prev) => (prev + 1) % recipes.length)
-  }
+    setCurrentIndex((prev) => (prev + 1) % recipes.length);
+  };
 
   const previousRecipe = () => {
-    setCurrentIndex((prev) => (prev - 1 + recipes.length) % recipes.length)
-  }
+    setCurrentIndex((prev) => (prev - 1 + recipes.length) % recipes.length);
+  };
 
-  const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  const days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
 
   return (
     <div className="space-y-4">
@@ -35,7 +43,7 @@ export function RecipeCarousel({ recipes }: RecipeCarouselProps) {
         <Button variant="outline" size="icon" onClick={previousRecipe}>
           <ChevronLeft className="h-4 w-4" />
         </Button>
-        <h2 className="text-xl font-semibold">{days[currentIndex]}'s Meal</h2>
+        <h2 className="text-xl font-semibold">{`${days[currentIndex]}'s Meal`}</h2>
         <Button variant="outline" size="icon" onClick={nextRecipe}>
           <ChevronRight className="h-4 w-4" />
         </Button>
@@ -57,6 +65,5 @@ export function RecipeCarousel({ recipes }: RecipeCarouselProps) {
         ))}
       </div>
     </div>
-  )
+  );
 }
-
