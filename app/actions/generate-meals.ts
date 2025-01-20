@@ -25,7 +25,7 @@ export async function generateWeeklyMealPlan(): Promise<MealPlan> {
 
   const prompt = `Generate a weekly meal plan with 7 healthy, easy-to-make dinner recipes. 
   Each recipe should use commonly available ingredients and be suitable for a balanced lifestyle.
-  Exclude the following from all meals: ${exclusion}
+  Exlude all meals that contain ${exclusion}
   Format the response as a JSON object with the following structure:
   {
     "meals": [

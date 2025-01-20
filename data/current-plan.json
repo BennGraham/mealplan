@@ -1,307 +1,266 @@
 {
-  "id": "h648g5",
-  "generatedAt": "2025-01-20T03:23:21.290Z",
+  "id": "szgln",
+  "generatedAt": "2025-01-20T03:33:00.440Z",
   "validUntil": "2025-01-27T04:59:59.999Z",
   "meals": [
     {
-      "title": "Chicken and Vegetable Stir-Fry",
+      "title": "Chicken Stir-Fry",
       "ingredients": [
         {
-          "name": "chicken breast",
-          "amount": "1 lb",
-          "unit": ""
+          "name": "Chicken breast",
+          "amount": 1,
+          "unit": "lb"
         },
         {
-          "name": "bell pepper",
-          "amount": "1",
-          "unit": ""
+          "name": "Broccoli",
+          "amount": 2,
+          "unit": "cups"
         },
         {
-          "name": "broccoli florets",
-          "amount": "2 cups",
-          "unit": ""
+          "name": "Bell pepper",
+          "amount": 1,
+          "unit": "sliced"
         },
         {
-          "name": "carrots",
-          "amount": "2",
-          "unit": ""
+          "name": "Carrots",
+          "amount": 2,
+          "unit": "sliced"
         },
         {
-          "name": "soy sauce",
-          "amount": "1/4 cup",
-          "unit": ""
+          "name": "Soy sauce",
+          "amount": 1,
+          "unit": "tbsp"
         },
         {
-          "name": "garlic",
-          "amount": "2 cloves",
-          "unit": ""
+          "name": "Garlic",
+          "amount": 2,
+          "unit": "cloves"
         },
         {
-          "name": "ginger",
-          "amount": "1 tbsp",
-          "unit": ""
+          "name": "Ginger",
+          "amount": 1,
+          "unit": "tsp"
         },
         {
-          "name": "olive oil",
-          "amount": "2 tbsp",
-          "unit": ""
+          "name": "Cooking oil",
+          "amount": 2,
+          "unit": "tbsp"
         }
       ],
       "instructions": [
-        "Slice chicken into strips and marinate in soy sauce, garlic, and ginger.",
-        "Stir-fry chicken in olive oil until cooked, then add vegetables and cook until tender.",
-        "Serve hot over rice or quinoa."
+        "1. Heat oil in a pan and sauté garlic and ginger.",
+        "2. Add chicken and cook until browned.",
+        "3. Add vegetables and soy sauce, stir-fry until tender.",
+        "4. Serve hot."
       ],
       "prepTime": "15 mins",
       "cookTime": "15 mins",
       "servings": 4
     },
     {
-      "title": "Quinoa Salad with Roasted Vegetables",
+      "title": "Vegetarian Chili",
       "ingredients": [
         {
-          "name": "quinoa",
-          "amount": "1 cup",
-          "unit": ""
+          "name": "Black beans",
+          "amount": 2,
+          "unit": "cans"
         },
         {
-          "name": "zucchini",
-          "amount": "1",
-          "unit": ""
+          "name": "Kidney beans",
+          "amount": 1,
+          "unit": "can"
         },
         {
-          "name": "bell pepper",
-          "amount": "1",
-          "unit": ""
+          "name": "Bell pepper",
+          "amount": 1,
+          "unit": "chopped"
         },
         {
-          "name": "red onion",
-          "amount": "1",
-          "unit": ""
+          "name": "Onion",
+          "amount": 1,
+          "unit": "chopped"
         },
         {
-          "name": "cherry tomatoes",
-          "amount": "1 cup",
-          "unit": ""
+          "name": "Garlic",
+          "amount": 2,
+          "unit": "cloves"
         },
         {
-          "name": "olive oil",
-          "amount": "2 tbsp",
-          "unit": ""
+          "name": "Tomatoes",
+          "amount": 1,
+          "unit": "can"
         },
         {
-          "name": "balsamic vinegar",
-          "amount": "1 tbsp",
-          "unit": ""
+          "name": "Chili powder",
+          "amount": 2,
+          "unit": "tsp"
         },
         {
-          "name": "salt and pepper",
-          "amount": "to taste",
-          "unit": ""
+          "name": "Cumin",
+          "amount": 1,
+          "unit": "tsp"
         }
       ],
       "instructions": [
-        "Cook quinoa according to package instructions.",
-        "Toss chopped vegetables in olive oil, balsamic vinegar, salt, and pepper.",
-        "Roast vegetables in the oven until tender and slightly charred.",
-        "Mix quinoa with roasted vegetables and serve as a salad."
+        "1. Sauté onion and garlic in a pot.",
+        "2. Add bell pepper and cook until softened.",
+        "3. Add beans, tomatoes, and spices, simmer for 20 mins.",
+        "4. Serve hot with toppings of choice."
       ],
-      "prepTime": "15 mins",
-      "cookTime": "25 mins",
-      "servings": 4
+      "prepTime": "10 mins",
+      "cookTime": "30 mins",
+      "servings": 6
     },
     {
-      "title": "Turkey Meatballs with Marinara Sauce",
+      "title": "Chicken and Quinoa Salad",
       "ingredients": [
         {
-          "name": "ground turkey",
-          "amount": "1 lb",
-          "unit": ""
+          "name": "Chicken breast",
+          "amount": 1,
+          "unit": "lb"
         },
         {
-          "name": "bread crumbs",
-          "amount": "1/2 cup",
-          "unit": ""
+          "name": "Quinoa",
+          "amount": 1,
+          "unit": "cup"
         },
         {
-          "name": "parmesan cheese",
-          "amount": "1/4 cup",
-          "unit": ""
+          "name": "Cucumber",
+          "amount": 1,
+          "unit": "chopped"
         },
         {
-          "name": "egg",
-          "amount": "1",
-          "unit": ""
+          "name": "Cherry tomatoes",
+          "amount": 1,
+          "unit": "cup"
         },
         {
-          "name": "garlic powder",
-          "amount": "1 tsp",
-          "unit": ""
+          "name": "Red onion",
+          "amount": 1,
+          "unit": "sliced"
         },
         {
-          "name": "marinara sauce",
-          "amount": "2 cups",
-          "unit": ""
+          "name": "Feta cheese",
+          "amount": 1,
+          "unit": "cup"
         },
         {
-          "name": "olive oil",
-          "amount": "2 tbsp",
-          "unit": ""
+          "name": "Lemon juice",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Olive oil",
+          "amount": 2,
+          "unit": "tbsp"
         }
       ],
       "instructions": [
-        "Mix ground turkey, bread crumbs, parmesan, egg, and garlic powder in a bowl.",
-        "Form meatballs and brown in olive oil in a skillet.",
-        "Pour marinara sauce over meatballs and simmer until cooked through.",
-        "Serve with whole wheat pasta or zucchini noodles."
+        "1. Cook quinoa according to package instructions.",
+        "2. Grill chicken until cooked through.",
+        "3. Combine all ingredients in a bowl, toss with lemon juice and olive oil.",
+        "4. Serve warm or cold."
       ],
       "prepTime": "20 mins",
       "cookTime": "20 mins",
       "servings": 4
     },
     {
-      "title": "Vegetable and Chickpea Curry",
+      "title": "Turkey Meatballs with Zoodles",
       "ingredients": [
         {
-          "name": "chickpeas",
-          "amount": "2 cans",
-          "unit": ""
+          "name": "Ground turkey",
+          "amount": 1,
+          "unit": "lb"
         },
         {
-          "name": "onion",
-          "amount": "1",
-          "unit": ""
+          "name": "Zucchini",
+          "amount": 4,
+          "unit": "spiralized"
         },
         {
-          "name": "bell pepper",
-          "amount": "1",
-          "unit": ""
+          "name": "Tomato sauce",
+          "amount": 1,
+          "unit": "can"
         },
         {
-          "name": "cauliflower florets",
-          "amount": "2 cups",
-          "unit": ""
+          "name": "Garlic",
+          "amount": 2,
+          "unit": "cloves"
         },
         {
-          "name": "coconut milk",
-          "amount": "1 can",
-          "unit": ""
+          "name": "Parmesan cheese",
+          "amount": 1,
+          "unit": "cup"
         },
         {
-          "name": "curry powder",
-          "amount": "2 tbsp",
-          "unit": ""
+          "name": "Breadcrumbs",
+          "amount": 1,
+          "unit": "cup"
         },
         {
-          "name": "garlic",
-          "amount": "2 cloves",
-          "unit": ""
-        },
-        {
-          "name": "olive oil",
-          "amount": "2 tbsp",
+          "name": "Egg",
+          "amount": 1,
           "unit": ""
         }
       ],
       "instructions": [
-        "Sauté chopped onion and garlic in olive oil until soft.",
-        "Add curry powder and cook for a minute, then stir in vegetables and chickpeas.",
-        "Pour in coconut milk and simmer until vegetables are tender.",
-        "Serve over rice or quinoa."
+        "1. Preheat oven to 400°F.",
+        "2. Mix turkey, breadcrumbs, egg, garlic, and cheese to form meatballs.",
+        "3. Bake for 20 mins.",
+        "4. Sauté zoodles in a pan, add tomato sauce.",
+        "5. Serve meatballs on top of zoodles."
       ],
       "prepTime": "15 mins",
-      "cookTime": "25 mins",
+      "cookTime": "20 mins",
       "servings": 4
     },
     {
-      "title": "Baked Lemon Herb Chicken",
+      "title": "Sweet Potato and Chickpea Curry",
       "ingredients": [
         {
-          "name": "chicken thighs",
-          "amount": "1 lb",
-          "unit": ""
+          "name": "Sweet potatoes",
+          "amount": 2,
+          "unit": "cubed"
         },
         {
-          "name": "lemon",
-          "amount": "1",
-          "unit": ""
+          "name": "Chickpeas",
+          "amount": 1,
+          "unit": "can"
         },
         {
-          "name": "rosemary",
-          "amount": "1 tbsp",
-          "unit": ""
+          "name": "Coconut milk",
+          "amount": 1,
+          "unit": "can"
         },
         {
-          "name": "thyme",
-          "amount": "1 tbsp",
-          "unit": ""
+          "name": "Onion",
+          "amount": 1,
+          "unit": "chopped"
         },
         {
-          "name": "garlic",
-          "amount": "2 cloves",
-          "unit": ""
+          "name": "Garlic",
+          "amount": 2,
+          "unit": "cloves"
         },
         {
-          "name": "olive oil",
-          "amount": "2 tbsp",
-          "unit": ""
+          "name": "Curry powder",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "Cilantro",
+          "amount": 1,
+          "unit": "tbsp"
         }
       ],
       "instructions": [
-        "Mix olive oil, lemon juice, minced garlic, and herbs in a bowl.",
-        "Coat chicken thighs with the mixture and let marinate for 30 minutes.",
-        "Bake in the oven until chicken is cooked through and golden brown.",
-        "Serve with a side of roasted vegetables."
+        "1. Sauté onion and garlic in a pot.",
+        "2. Add sweet potatoes, chickpeas, coconut milk, and curry powder.",
+        "3. Simmer for 20 mins until potatoes are tender.",
+        "4. Garnish with cilantro."
       ],
-      "prepTime": "15 mins",
-      "cookTime": "30 mins",
-      "servings": 4
-    },
-    {
-      "title": "Black Bean and Sweet Potato Tacos",
-      "ingredients": [
-        {
-          "name": "black beans",
-          "amount": "1 can",
-          "unit": ""
-        },
-        {
-          "name": "sweet potato",
-          "amount": "2",
-          "unit": ""
-        },
-        {
-          "name": "bell pepper",
-          "amount": "1",
-          "unit": ""
-        },
-        {
-          "name": "taco seasoning",
-          "amount": "2 tbsp",
-          "unit": ""
-        },
-        {
-          "name": "tortillas",
-          "amount": "8",
-          "unit": ""
-        },
-        {
-          "name": "avocado",
-          "amount": "1",
-          "unit": ""
-        },
-        {
-          "name": "lime",
-          "amount": "1",
-          "unit": ""
-        }
-      ],
-      "instructions": [
-        "Dice sweet potatoes and bell pepper, then roast in the oven until tender.",
-        "Heat black beans with taco seasoning in a pot.",
-        "Assemble tacos with roasted vegetables, black beans, sliced avocado, and a squeeze of lime."
-      ],
-      "prepTime": "15 mins",
+      "prepTime": "10 mins",
       "cookTime": "25 mins",
       "servings": 4
     },
@@ -309,44 +268,103 @@
       "title": "Mushroom and Spinach Pasta",
       "ingredients": [
         {
-          "name": "pasta",
-          "amount": "1 lb",
-          "unit": ""
+          "name": "Pasta",
+          "amount": 1,
+          "unit": "lb"
         },
         {
-          "name": "mushrooms",
-          "amount": "1 lb",
-          "unit": ""
+          "name": "Mushrooms",
+          "amount": 1,
+          "unit": "lb"
         },
         {
-          "name": "spinach",
-          "amount": "2 cups",
-          "unit": ""
+          "name": "Spinach",
+          "amount": 2,
+          "unit": "cups"
         },
         {
-          "name": "garlic",
-          "amount": "2 cloves",
-          "unit": ""
+          "name": "Garlic",
+          "amount": 2,
+          "unit": "cloves"
         },
         {
-          "name": "olive oil",
-          "amount": "2 tbsp",
-          "unit": ""
+          "name": "Parmesan cheese",
+          "amount": 1,
+          "unit": "cup"
         },
         {
-          "name": "parmesan cheese",
-          "amount": "1/4 cup",
+          "name": "Olive oil",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Salt and pepper",
+          "amount": "",
           "unit": ""
         }
       ],
       "instructions": [
-        "Cook pasta according to package instructions.",
-        "Sauté sliced mushrooms and minced garlic in olive oil until browned.",
-        "Add spinach and cook until wilted, then toss with cooked pasta.",
-        "Serve with a sprinkle of parmesan cheese."
+        "1. Cook pasta according to package instructions.",
+        "2. Sauté mushrooms and garlic in olive oil.",
+        "3. Add spinach and cook until wilted.",
+        "4. Toss with cooked pasta, cheese, salt, and pepper."
       ],
       "prepTime": "10 mins",
       "cookTime": "20 mins",
+      "servings": 4
+    },
+    {
+      "title": "Beef and Vegetable Stir-Fry",
+      "ingredients": [
+        {
+          "name": "Beef sirloin",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "Broccoli",
+          "amount": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "Bell pepper",
+          "amount": 1,
+          "unit": "sliced"
+        },
+        {
+          "name": "Carrots",
+          "amount": 2,
+          "unit": "sliced"
+        },
+        {
+          "name": "Soy sauce",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "Garlic",
+          "amount": 2,
+          "unit": "cloves"
+        },
+        {
+          "name": "Ginger",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "Cooking oil",
+          "amount": 2,
+          "unit": "tbsp"
+        }
+      ],
+      "instructions": [
+        "1. Heat oil in a pan and sauté garlic and ginger.",
+        "2. Add beef and cook until browned.",
+        "3. Add vegetables and soy sauce, stir-fry until tender.",
+        "4. Serve hot."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "15 mins",
       "servings": 4
     }
   ]
