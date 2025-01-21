@@ -152,11 +152,11 @@ export default function MTGCounter() {
   };
 
   return (
-    <main className="h-[calc(100vh-3.5rem)] w-full relative">
+    <main className="h-[calc(100vh-3.5rem)] landscape:h-[calc(100vh-1.5rem)] w-full relative">
       <Button
         onClick={resetGame}
         variant="outline"
-        className="absolute -top-12 left-1/2 -translate-x-1/2 z-[99] text-xs sm:text-sm"
+        className="absolute -top-10 landscape:-top-6 left-1/2 -translate-x-1/2 z-[99] text-xs landscape:max-h-5 sm:max-h-10"
       >
         Reset
       </Button>
@@ -174,21 +174,21 @@ export default function MTGCounter() {
                 return (
                   <div
                     key={cmd.id}
-                    className={`flex items-center justify-between ${commanderColor} p-0.5 rounded-md text-xs sm:text-sm border border-slate-950`}
+                    className={`flex items-center justify-between ${commanderColor} p-0.5 rounded-md border border-slate-900`}
                     onClick={(e) => e.stopPropagation()}
                   >
                     <button
                       onClick={() =>
                         updateCommanderDamage(cmd.id, player.id, -1)
                       }
-                      className="p-1 hover:bg-black/10 rounded"
+                      className="p-1 hover:bg-black/10 rounded text-base landscape:text-xs"
                     >
                       -
                     </button>
                     <div className="flex items-center gap-0.5">
-                      <Crown className="h-2.5 w-2.5 sm:h-3 sm:w-3" />
+                      <Crown className="h-4 w-4 landscape:h-3 landscape:w-3" />
                       <span
-                        className={`font-bold ${
+                        className={`font-bold text-base landscape:text-xs ${
                           cmd.damage >= 21 ? "text-red-600" : ""
                         }`}
                       >
@@ -199,7 +199,7 @@ export default function MTGCounter() {
                       onClick={() =>
                         updateCommanderDamage(cmd.id, player.id, 1)
                       }
-                      className="p-1 hover:bg-black/10 rounded"
+                      className="p-1 hover:bg-black/10 rounded text-base landscape:text-xs"
                     >
                       +
                     </button>
@@ -217,35 +217,35 @@ export default function MTGCounter() {
               onClick={() => updateLife(player.id, 1)}
             />
 
-            <CardContent className="flex flex-col items-center justify-center h-full p-2 pt-12 landscape:pt-8 relative">
-              <h2 className="text-xs sm:text-base font-semibold mb-1 sm:mb-2">
+            <CardContent className="flex flex-col items-center justify-center h-full p-2 pt-16 landscape:pt-10 relative">
+              <h2 className="text-base landscape:text-xs font-semibold mb-2 landscape:mb-1">
                 Player {player.id}
               </h2>
-              <div className="text-3xl sm:text-4xl md:text-6xl lg:text-[8rem] font-bold mb-1 sm:mb-2">
+              <div className="text-7xl landscape:text-3xl font-bold mb-2 landscape:mb-1">
                 {player.life}
               </div>
-              <div className="flex justify-center gap-1 sm:gap-2">
+              <div className="flex justify-center gap-2 landscape:gap-1">
                 <Button
                   variant="outline"
                   size="icon"
-                  className="h-6 w-6 sm:h-8 sm:w-8"
+                  className="h-10 w-10 landscape:h-6 landscape:w-6"
                   onClick={(e) => {
                     e.stopPropagation();
                     updateLife(player.id, -1);
                   }}
                 >
-                  <Minus className="h-3 w-3 sm:h-4 sm:w-4" />
+                  <Minus className="h-6 w-6 landscape:h-3 landscape:w-3" />
                 </Button>
                 <Button
                   variant="outline"
                   size="icon"
-                  className="h-6 w-6 sm:h-8 sm:w-8"
+                  className="h-10 w-10 landscape:h-6 landscape:w-6"
                   onClick={(e) => {
                     e.stopPropagation();
                     updateLife(player.id, 1);
                   }}
                 >
-                  <Plus className="h-3 w-3 sm:h-4 sm:w-4" />
+                  <Plus className="h-6 w-6 landscape:h-3 landscape:w-3" />
                 </Button>
               </div>
             </CardContent>
