@@ -3,19 +3,114 @@ import { useState } from "react";
 import { Minus, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { CommanderDamage } from "@/components/commander-damage";
+
+interface CmdDmg {
+  id: number;
+  damage: number;
+}
 
 interface Player {
   id: number;
   life: number;
+  cmd: CmdDmg[];
   color: string;
 }
 
 export default function MTGCounter() {
   const [players, setPlayers] = useState<Player[]>([
-    { id: 1, life: 40, color: "bg-red-100" },
-    { id: 2, life: 40, color: "bg-blue-100" },
-    { id: 3, life: 40, color: "bg-green-100" },
-    { id: 4, life: 40, color: "bg-yellow-100" },
+    {
+      id: 1,
+      life: 40,
+      cmd: [
+        {
+          id: 1,
+          damage: 0,
+        },
+        {
+          id: 2,
+          damage: 0,
+        },
+        {
+          id: 3,
+          damage: 0,
+        },
+        {
+          id: 4,
+          damage: 0,
+        },
+      ],
+      color: "bg-blue-400",
+    },
+    {
+      id: 2,
+      life: 40,
+      cmd: [
+        {
+          id: 1,
+          damage: 0,
+        },
+        {
+          id: 2,
+          damage: 0,
+        },
+        {
+          id: 3,
+          damage: 0,
+        },
+        {
+          id: 4,
+          damage: 0,
+        },
+      ],
+      color: "bg-lime-400",
+    },
+    {
+      id: 3,
+      life: 40,
+      cmd: [
+        {
+          id: 1,
+          damage: 0,
+        },
+        {
+          id: 2,
+          damage: 0,
+        },
+        {
+          id: 3,
+          damage: 0,
+        },
+        {
+          id: 4,
+          damage: 0,
+        },
+      ],
+      color: "bg-red-400",
+    },
+    {
+      id: 4,
+      life: 40,
+      cmd: [
+        {
+          id: 1,
+          damage: 0,
+        },
+        {
+          id: 2,
+          damage: 0,
+        },
+        {
+          id: 3,
+          damage: 0,
+        },
+        {
+          id: 4,
+          damage: 0,
+        },
+      ],
+      color: "bg-orange-400",
+    },
   ]);
 
   const updateLife = (id: number, change: number) => {
@@ -27,7 +122,33 @@ export default function MTGCounter() {
   };
 
   const resetGame = () => {
-    setPlayers((current) => current.map((player) => ({ ...player, life: 40 })));
+    setPlayers((current) =>
+      current.map((player) => ({
+        ...player,
+        life: 40,
+        cmd: player.cmd.map((cmd) => ({ ...cmd, damage: 0 })),
+      }))
+    );
+  };
+
+  const updateCommanderDamage = (
+    fromPlayer: number,
+    toPlayer: number,
+    change: number
+  ) => {
+    setPlayers((current) =>
+      current.map((player) => {
+        if (player.id === toPlayer) {
+          const updatedCmd = player.cmd.map((cmd) =>
+            cmd.id === fromPlayer
+              ? { ...cmd, damage: Math.max(0, cmd.damage + change) }
+              : cmd
+          );
+          return { ...player, cmd: updatedCmd };
+        }
+        return player;
+      })
+    );
   };
 
   return (
@@ -35,7 +156,7 @@ export default function MTGCounter() {
       <Button
         onClick={resetGame}
         variant="outline"
-        className="absolute top-4 left-1/2 -translate-x-1/2 z-10"
+        className="absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-[99]"
       >
         Reset Game
       </Button>
@@ -45,6 +166,23 @@ export default function MTGCounter() {
             key={player.id}
             className={`${player.color} rounded-none border-none h-full relative overflow-hidden`}
           >
+            <div className="absolute top-10 left-4 flex flex-col gap-2 z-20">
+              {player.cmd.map((cmd) => {
+                const commanderColor =
+                  players.find((p) => p.id === cmd.id)?.color || player.color;
+
+                return (
+                  <CommanderDamage
+                    key={cmd.id}
+                    fromPlayer={cmd.id}
+                    toPlayer={player.id}
+                    damage={cmd.damage}
+                    color={commanderColor}
+                    onDamageChange={updateCommanderDamage}
+                  />
+                );
+              })}
+            </div>
             <div
               className="absolute left-0 top-0 w-1/2 h-full cursor-pointer hover:bg-red-800/5 active:bg-red-800/25 transition-colors z-[10]"
               onClick={() => updateLife(player.id, -1)}
