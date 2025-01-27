@@ -1,370 +1,374 @@
 {
-  "id": "szgln",
-  "generatedAt": "2025-01-20T03:33:00.440Z",
-  "validUntil": "2025-01-27T04:59:59.999Z",
+  "id": "wp7w",
+  "generatedAt": "2025-01-27T13:52:59.467Z",
+  "validUntil": "2025-02-03T04:59:59.999Z",
   "meals": [
     {
-      "title": "Chicken Stir-Fry",
+      "title": "One Pan Chicken and Vegetables",
       "ingredients": [
         {
-          "name": "Chicken breast",
-          "amount": 1,
-          "unit": "lb"
+          "name": "chicken breasts",
+          "amount": 4,
+          "unit": "pieces"
         },
         {
-          "name": "Broccoli",
+          "name": "bell peppers",
           "amount": 2,
-          "unit": "cups"
+          "unit": "pieces"
         },
         {
-          "name": "Bell pepper",
-          "amount": 1,
-          "unit": "sliced"
-        },
-        {
-          "name": "Carrots",
+          "name": "zucchini",
           "amount": 2,
-          "unit": "sliced"
+          "unit": "pieces"
         },
         {
-          "name": "Soy sauce",
-          "amount": 1,
+          "name": "olive oil",
+          "amount": 2,
           "unit": "tbsp"
         },
         {
-          "name": "Garlic",
-          "amount": 2,
-          "unit": "cloves"
-        },
-        {
-          "name": "Ginger",
+          "name": "garlic powder",
           "amount": 1,
           "unit": "tsp"
         },
         {
-          "name": "Cooking oil",
-          "amount": 2,
-          "unit": "tbsp"
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "tsp"
         }
       ],
       "instructions": [
-        "1. Heat oil in a pan and sauté garlic and ginger.",
-        "2. Add chicken and cook until browned.",
-        "3. Add vegetables and soy sauce, stir-fry until tender.",
-        "4. Serve hot."
+        "Preheat oven to 400°F.",
+        "Cut chicken and vegetables into bite-sized pieces.",
+        "Toss with olive oil, garlic powder, salt, and pepper.",
+        "Spread on a baking sheet and bake for 25-30 minutes."
       ],
       "prepTime": "15 mins",
-      "cookTime": "15 mins",
+      "cookTime": "30 mins",
       "servings": 4
     },
     {
-      "title": "Vegetarian Chili",
+      "title": "Turkey and Quinoa Stuffed Bell Peppers",
       "ingredients": [
         {
-          "name": "Black beans",
-          "amount": 2,
-          "unit": "cans"
+          "name": "bell peppers",
+          "amount": 4,
+          "unit": "pieces"
         },
         {
-          "name": "Kidney beans",
-          "amount": 1,
-          "unit": "can"
-        },
-        {
-          "name": "Bell pepper",
-          "amount": 1,
-          "unit": "chopped"
-        },
-        {
-          "name": "Onion",
-          "amount": 1,
-          "unit": "chopped"
-        },
-        {
-          "name": "Garlic",
-          "amount": 2,
-          "unit": "cloves"
-        },
-        {
-          "name": "Tomatoes",
-          "amount": 1,
-          "unit": "can"
-        },
-        {
-          "name": "Chili powder",
-          "amount": 2,
-          "unit": "tsp"
-        },
-        {
-          "name": "Cumin",
-          "amount": 1,
-          "unit": "tsp"
-        }
-      ],
-      "instructions": [
-        "1. Sauté onion and garlic in a pot.",
-        "2. Add bell pepper and cook until softened.",
-        "3. Add beans, tomatoes, and spices, simmer for 20 mins.",
-        "4. Serve hot with toppings of choice."
-      ],
-      "prepTime": "10 mins",
-      "cookTime": "30 mins",
-      "servings": 6
-    },
-    {
-      "title": "Chicken and Quinoa Salad",
-      "ingredients": [
-        {
-          "name": "Chicken breast",
+          "name": "ground turkey",
           "amount": 1,
           "unit": "lb"
         },
         {
-          "name": "Quinoa",
+          "name": "quinoa",
           "amount": 1,
           "unit": "cup"
         },
         {
-          "name": "Cucumber",
+          "name": "onion",
           "amount": 1,
-          "unit": "chopped"
+          "unit": "piece"
         },
         {
-          "name": "Cherry tomatoes",
-          "amount": 1,
-          "unit": "cup"
-        },
-        {
-          "name": "Red onion",
-          "amount": 1,
-          "unit": "sliced"
-        },
-        {
-          "name": "Feta cheese",
+          "name": "tomato sauce",
           "amount": 1,
           "unit": "cup"
         },
         {
-          "name": "Lemon juice",
-          "amount": 2,
-          "unit": "tbsp"
+          "name": "cheese",
+          "amount": 1,
+          "unit": "cup"
         },
         {
-          "name": "Olive oil",
-          "amount": 2,
-          "unit": "tbsp"
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
         }
       ],
       "instructions": [
-        "1. Cook quinoa according to package instructions.",
-        "2. Grill chicken until cooked through.",
-        "3. Combine all ingredients in a bowl, toss with lemon juice and olive oil.",
-        "4. Serve warm or cold."
+        "Preheat oven to 375°F.",
+        "Cook quinoa according to package instructions.",
+        "Brown turkey and onion in a skillet.",
+        "Mix turkey, quinoa, tomato sauce, and salt.",
+        "Stuff peppers with mixture, top with cheese, and bake for 25-30 minutes."
       ],
       "prepTime": "20 mins",
-      "cookTime": "20 mins",
+      "cookTime": "30 mins",
       "servings": 4
     },
     {
-      "title": "Turkey Meatballs with Zoodles",
+      "title": "Vegetarian Lentil Soup",
       "ingredients": [
         {
-          "name": "Ground turkey",
+          "name": "lentils",
           "amount": 1,
-          "unit": "lb"
+          "unit": "cup"
         },
         {
-          "name": "Zucchini",
-          "amount": 4,
-          "unit": "spiralized"
+          "name": "carrots",
+          "amount": 2,
+          "unit": "pieces"
         },
         {
-          "name": "Tomato sauce",
+          "name": "celery",
+          "amount": 2,
+          "unit": "stalks"
+        },
+        {
+          "name": "onion",
           "amount": 1,
-          "unit": "can"
+          "unit": "piece"
         },
         {
-          "name": "Garlic",
+          "name": "garlic",
           "amount": 2,
           "unit": "cloves"
         },
         {
-          "name": "Parmesan cheese",
-          "amount": 1,
-          "unit": "cup"
+          "name": "vegetable broth",
+          "amount": 4,
+          "unit": "cups"
         },
         {
-          "name": "Breadcrumbs",
-          "amount": 1,
-          "unit": "cup"
+          "name": "tomato paste",
+          "amount": 2,
+          "unit": "tbsp"
         },
         {
-          "name": "Egg",
+          "name": "cumin",
           "amount": 1,
-          "unit": ""
+          "unit": "tsp"
+        },
+        {
+          "name": "paprika",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
         }
       ],
       "instructions": [
-        "1. Preheat oven to 400°F.",
-        "2. Mix turkey, breadcrumbs, egg, garlic, and cheese to form meatballs.",
-        "3. Bake for 20 mins.",
-        "4. Sauté zoodles in a pan, add tomato sauce.",
-        "5. Serve meatballs on top of zoodles."
+        "In a large pot, sauté onion, garlic, carrots, and celery.",
+        "Add lentils, vegetable broth, tomato paste, cumin, paprika, and salt.",
+        "Simmer for 30 minutes until lentils are tender."
       ],
       "prepTime": "15 mins",
-      "cookTime": "20 mins",
+      "cookTime": "30 mins",
       "servings": 4
     },
     {
-      "title": "Sweet Potato and Chickpea Curry",
+      "title": "Baked Chicken Parmesan",
       "ingredients": [
         {
-          "name": "Sweet potatoes",
-          "amount": 2,
-          "unit": "cubed"
+          "name": "chicken breasts",
+          "amount": 4,
+          "unit": "pieces"
         },
         {
-          "name": "Chickpeas",
-          "amount": 1,
-          "unit": "can"
-        },
-        {
-          "name": "Coconut milk",
-          "amount": 1,
-          "unit": "can"
-        },
-        {
-          "name": "Onion",
-          "amount": 1,
-          "unit": "chopped"
-        },
-        {
-          "name": "Garlic",
-          "amount": 2,
-          "unit": "cloves"
-        },
-        {
-          "name": "Curry powder",
-          "amount": 2,
-          "unit": "tsp"
-        },
-        {
-          "name": "Cilantro",
-          "amount": 1,
-          "unit": "tbsp"
-        }
-      ],
-      "instructions": [
-        "1. Sauté onion and garlic in a pot.",
-        "2. Add sweet potatoes, chickpeas, coconut milk, and curry powder.",
-        "3. Simmer for 20 mins until potatoes are tender.",
-        "4. Garnish with cilantro."
-      ],
-      "prepTime": "10 mins",
-      "cookTime": "25 mins",
-      "servings": 4
-    },
-    {
-      "title": "Mushroom and Spinach Pasta",
-      "ingredients": [
-        {
-          "name": "Pasta",
-          "amount": 1,
-          "unit": "lb"
-        },
-        {
-          "name": "Mushrooms",
-          "amount": 1,
-          "unit": "lb"
-        },
-        {
-          "name": "Spinach",
-          "amount": 2,
-          "unit": "cups"
-        },
-        {
-          "name": "Garlic",
-          "amount": 2,
-          "unit": "cloves"
-        },
-        {
-          "name": "Parmesan cheese",
+          "name": "breadcrumbs",
           "amount": 1,
           "unit": "cup"
         },
         {
-          "name": "Olive oil",
-          "amount": 2,
-          "unit": "tbsp"
-        },
-        {
-          "name": "Salt and pepper",
-          "amount": "",
-          "unit": ""
-        }
-      ],
-      "instructions": [
-        "1. Cook pasta according to package instructions.",
-        "2. Sauté mushrooms and garlic in olive oil.",
-        "3. Add spinach and cook until wilted.",
-        "4. Toss with cooked pasta, cheese, salt, and pepper."
-      ],
-      "prepTime": "10 mins",
-      "cookTime": "20 mins",
-      "servings": 4
-    },
-    {
-      "title": "Beef and Vegetable Stir-Fry",
-      "ingredients": [
-        {
-          "name": "Beef sirloin",
+          "name": "parmesan cheese",
           "amount": 1,
-          "unit": "lb"
+          "unit": "cup"
         },
         {
-          "name": "Broccoli",
-          "amount": 2,
-          "unit": "cups"
-        },
-        {
-          "name": "Bell pepper",
+          "name": "egg",
           "amount": 1,
-          "unit": "sliced"
+          "unit": "piece"
         },
         {
-          "name": "Carrots",
-          "amount": 2,
-          "unit": "sliced"
-        },
-        {
-          "name": "Soy sauce",
+          "name": "tomato sauce",
           "amount": 1,
-          "unit": "tbsp"
+          "unit": "cup"
         },
         {
-          "name": "Garlic",
-          "amount": 2,
-          "unit": "cloves"
+          "name": "mozzarella cheese",
+          "amount": 1,
+          "unit": "cup"
         },
         {
-          "name": "Ginger",
+          "name": "salt",
           "amount": 1,
           "unit": "tsp"
         },
         {
-          "name": "Cooking oil",
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 400°F.",
+        "Dip chicken in beaten egg, then coat with breadcrumbs and parmesan.",
+        "Place on a baking sheet and bake for 20 minutes.",
+        "Top with tomato sauce and mozzarella, bake for another 10 minutes."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "30 mins",
+      "servings": 4
+    },
+    {
+      "title": "Spaghetti Squash with Turkey Meatballs",
+      "ingredients": [
+        {
+          "name": "spaghetti squash",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "ground turkey",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "breadcrumbs",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "parmesan cheese",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "egg",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tomato sauce",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "tsp"
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 400°F.",
+        "Cut squash in half, remove seeds, bake for 40 minutes.",
+        "Mix turkey, breadcrumbs, parmesan, egg, salt, and pepper.",
+        "Form into meatballs and bake for 20 minutes.",
+        "Scrape squash with a fork, top with meatballs and sauce."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "60 mins",
+      "servings": 4
+    },
+    {
+      "title": "Chicken and Broccoli Stir-Fry",
+      "ingredients": [
+        {
+          "name": "chicken breast",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "broccoli",
+          "amount": 1,
+          "unit": "head"
+        },
+        {
+          "name": "soy sauce",
           "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "garlic",
+          "amount": 2,
+          "unit": "cloves"
+        },
+        {
+          "name": "ginger",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "brown sugar",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "cornstarch",
+          "amount": 1,
+          "unit": "tbsp"
+        },
+        {
+          "name": "sesame oil",
+          "amount": 1,
           "unit": "tbsp"
         }
       ],
       "instructions": [
-        "1. Heat oil in a pan and sauté garlic and ginger.",
-        "2. Add beef and cook until browned.",
-        "3. Add vegetables and soy sauce, stir-fry until tender.",
-        "4. Serve hot."
+        "Stir-fry chicken in sesame oil until cooked.",
+        "Add broccoli, garlic, and ginger, cook until tender-crisp.",
+        "Mix soy sauce, brown sugar, and cornstarch, add to pan and stir until thickened."
       ],
       "prepTime": "15 mins",
       "cookTime": "15 mins",
+      "servings": 4
+    },
+    {
+      "title": "Sweet Potato and Black Bean Tacos",
+      "ingredients": [
+        {
+          "name": "sweet potatoes",
+          "amount": 2,
+          "unit": "pieces"
+        },
+        {
+          "name": "black beans",
+          "amount": 1,
+          "unit": "can"
+        },
+        {
+          "name": "taco seasoning",
+          "amount": 2,
+          "unit": "tbsp"
+        },
+        {
+          "name": "avocado",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "lime",
+          "amount": 1,
+          "unit": "piece"
+        },
+        {
+          "name": "tortillas",
+          "amount": 8,
+          "unit": "pieces"
+        }
+      ],
+      "instructions": [
+        "Peel and dice sweet potatoes, roast in oven with taco seasoning.",
+        "Heat black beans in a pan.",
+        "Mash avocado with lime juice.",
+        "Assemble tacos with sweet potatoes, beans, and avocado."
+      ],
+      "prepTime": "15 mins",
+      "cookTime": "30 mins",
       "servings": 4
     }
   ]

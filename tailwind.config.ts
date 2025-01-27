@@ -9,6 +9,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontSize: {
+        "6xl": "3.75rem",
+        "7xl": "4.5rem",
+        "8xl": "6rem",
+        "9xl": "8rem",
+      },
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

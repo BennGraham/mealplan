@@ -217,35 +217,35 @@ export default function MTGCounter() {
               onClick={() => updateLife(player.id, 1)}
             />
 
-            <CardContent className="flex flex-col items-center justify-center h-full p-2 pt-16 landscape:pt-10 relative">
-              <h2 className="text-base landscape:text-xs font-semibold mb-2 landscape:mb-1">
-                Player {player.id}
-              </h2>
-              <div className="text-7xl landscape:text-3xl font-bold mb-2 landscape:mb-1">
+            <CardContent className="flex flex-col items-center justify-center h-full p-2 landscape:pt-10 relative">
+              <div className="text-7xl landscape:text-[6rem] font-bold landscape:mb-1">
                 {player.life}
               </div>
-              <div className="flex justify-center gap-2 landscape:gap-1">
+              <span className="absolute bottom-0 left-1/2 -translate-x-1/2 text-base landscape:text-xs font-semibold landscape:mb-1">
+                Player {player.id}
+              </span>
+              <div className="flex justify-center gap-2 landscape:hidden">
                 <Button
                   variant="outline"
                   size="icon"
-                  className="h-10 w-10 landscape:h-6 landscape:w-6"
+                  className="h-10 w-10"
                   onClick={(e) => {
                     e.stopPropagation();
                     updateLife(player.id, -1);
                   }}
                 >
-                  <Minus className="h-6 w-6 landscape:h-3 landscape:w-3" />
+                  <Minus className="h-6 w-6" />
                 </Button>
                 <Button
                   variant="outline"
                   size="icon"
-                  className="h-10 w-10 landscape:h-6 landscape:w-6"
+                  className="h-10 w-10"
                   onClick={(e) => {
                     e.stopPropagation();
                     updateLife(player.id, 1);
                   }}
                 >
-                  <Plus className="h-6 w-6 landscape:h-3 landscape:w-3" />
+                  <Plus className="h-6 w-6" />
                 </Button>
               </div>
             </CardContent>
